@@ -1,0 +1,5 @@
+71
+~E 1 "./src/1.vhd" 135 cpu
+~A 1 "./src/1.vhd" 150 one
+~E 1 "./compile/shell.vhd" 25 shell
+~A 1 "./compile/shell.vhd" 42 one

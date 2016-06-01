@@ -1,0 +1,55 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=my
+
+[Library]
+my=.\my.lib
+
+[$LibMap$]
+my=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+CSYNTH_TOOL=<none>
+PHYSSYNTH_TOOL=<none>
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+FAMILY=
+
+[IMPLEMENTATION]
+UCF=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=cpu|one|0 
+ShowHide=ShowTopLevel
+Selected=
+
+
+[Files]
+/1.vhd=-1
+/cpu.bde=-1
+/shell.bde=-1
+/simmi.awf=-1
+
+[Files.Data]
+.\src\1.vhd=VHDL Source Code
+.\src\cpu.bde=Block Diagram
+.\src\shell.bde=Block Diagram
+.\src\simmi.awf=Waveform File
+
+[file_out:/shell.bde]
+/\compile\shell.vhd=-1

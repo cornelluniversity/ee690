@@ -1,0 +1,1 @@
+-w -s "C:\My_Designs\my\library.cfg"  -j "C:\My_Designs\my\my\projlib.cfg"  -d "C:\My_Designs\my\my\compile\"  -work my -dbg -e 100
